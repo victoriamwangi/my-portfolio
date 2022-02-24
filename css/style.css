@@ -2,19 +2,26 @@
   --primary: #18a0fb;
   --secondary: #065f9b;
 }
+body {
+  overflow-x: hidden;
+}
 
 .top-nav {
   background-color: var(--primary);
 }
 .nav-tabs {
+  margin-left: 20vw;
 }
 .nav-link {
   color: white;
   font-size: 1.4vw;
 }
+.nav-item a:hover {
+  background-color: red;
+}
 .wrapper-section {
   background-color: #ffffff;
-  height: 84vh;
+  height: 90vh;
 }
 #wrapper-text {
   display: flex;
@@ -31,14 +38,30 @@
   font-weight: 800;
 }
 #wrapper-text p span a {
-  color: var(--secondary);
+  color: var(--primary);
   font-size: 2vw;
   font-weight: 800;
 }
-#wrapper-text,
-#profile-img {
-}
 
+#wrapper-text .button {
+  padding-top: 2vw;
+}
+#wrapper-text .button button {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  height: 3vw;
+  width: 8vw;
+}
+#wrapper-text .button .hire {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  margin-left: 2vw;
+}
+#profile-img img {
+  width: 400px;
+  max-height: 90vh;
+}
 .skills {
   height: 60vh;
   background-color: #f9f9ff;
