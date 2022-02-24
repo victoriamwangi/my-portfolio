@@ -1,9 +1,10 @@
 :root {
-  --blue1: #162d63;
+  --primary: #18a0fb;
+  --secondary: #065f9b;
 }
 
 .top-nav {
-  background-color: var(--blue1);
+  background-color: var(--primary);
 }
 .nav-tabs {
 }
@@ -12,23 +13,55 @@
   font-size: 1.4vw;
 }
 .wrapper-section {
-  background-color: #f7f2f2;
+  background-color: #ffffff;
+  height: 84vh;
 }
 #wrapper-text {
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#wrapper-text p {
+#wrapper-text {
   margin-top: 8vw;
   font-size: 1.3vw;
 }
 #wrapper-text,
 #profile-img {
-  height: 84vh;
-  /* margin-left: 7vw;
-  margin-right: 7vw; */
 }
-.skill-text {
+
+.skills {
+  height: 60vh;
+  background-color: #f9f9ff;
+  padding-left: 13vw;
+  padding-top: 5vw;
+}
+#skill-text {
+  display: flex;
+  flex-direction: column;
+}
+#skill-text .title {
+  font-size: 2.5vw;
+  color: var(--primary);
+}
+#skill-text .content {
+  font-size: 1.6vw;
+}
+.skillset {
+}
+.status {
+  padding-top: 2vw;
+}
+.s-type {
+  font-size: 1.1vw;
+  font-weight: 900;
+}
+.design {
+  height: 10px;
+  width: 400px;
+  /* background-color: red; */
+  box-shadow: 0px 0px 3px var(--primary);
+}
+.inner-percent {
+  background-color: var(--secondary);
+  height: 100%;
 }
