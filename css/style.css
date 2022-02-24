@@ -123,7 +123,32 @@ footer .topic {
   color: white;
   font-weight: 900;
 }
-
+footer .contact form {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+footer .contact textarea {
+  height: 2.8vw;
+  width: 15vw;
+  border-radius: 5px;
+  padding-top: 1.2vw;
+  border: none;
+  right: 30vw;
+}
+footer .contact button {
+  border: none;
+  background-color: var(--primary);
+  height: 2.9vw;
+  border-radius: 5px;
+  width: 6vw;
+  left: 20px;
+}
+/* footer .contact button {
+  background-color: red;
+  height: 3vw;
+  margin-top: 2vw;
+} */
 .social ul {
   display: flex;
   justify-content: space-around;
@@ -131,4 +156,9 @@ footer .topic {
 }
 .social ul li {
   list-style: none;
+}
+.copy-right {
+  background-color: var(--secondary);
+  text-align: center;
+  padding-bottom: 1vw;
 }
