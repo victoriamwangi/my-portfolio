@@ -75,3 +75,37 @@
   background-color: var(--secondary);
   height: 100%;
 }
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services .title {
+  font-size: 2vw;
+  font-weight: 900;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5vw;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 5vw;
+}
+.card-title {
+  color: var(--primary);
+  font-weight: bold;
+}
+.card-text {
+  text-align: center;
+}
