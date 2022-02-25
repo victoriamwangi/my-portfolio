@@ -185,3 +185,14 @@ footer .contact button {
   text-align: center;
   padding-bottom: 1vw;
 }
+
+/* about page */
+.edu {
+  width: 60vw;
+  margin: auto;
+}
+.edus {
+  border: 1px solid var(--primary);
+  background-color: #f9f9ff;
+  margin-top: 2vw;
+}
