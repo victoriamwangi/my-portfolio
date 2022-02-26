@@ -115,7 +115,7 @@ body {
   font-size: 2vw;
   font-weight: 900;
 }
-.card {
+.r-services .card {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -123,22 +123,49 @@ body {
   padding: 5vw;
 }
 
-.card-body {
+.r-services .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-.card-img-top {
+.r-services .card-img-top {
   width: 5vw;
 }
-.card-title {
+.r-services .card-title {
   color: var(--primary);
   font-weight: bold;
 }
-.card-text {
+.r-services .card-text {
   text-align: center;
+}
+.projects {
+  padding-left: 3vw;
+  margin-bottom: 3vw;
+}
+.proj {
+  box-shadow: 1px 1px 5px grey;
+  margin-left: 5%;
+  /* background-color: red;    */
+  width: 25%;
+}
+.project1 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.projects .title {
+  font-size: 2vw;
+  font-weight: 900;
+  text-align: center;
+}
+.projects .card-img-top {
+  width: 20vw;
+  height: 28vw;
+  object-fit: fit;
+  padding-top: 2vw;
 }
 footer {
   background-color: var(--secondary);
@@ -175,11 +202,7 @@ footer .contact button {
   width: 6vw;
   left: 20px;
 }
-/* footer .contact button {
-  background-color: red;
-  height: 3vw;
-  margin-top: 2vw;
-} */
+
 .social ul {
   display: flex;
   justify-content: space-around;
@@ -208,9 +231,8 @@ footer .contact button {
 }
 .about-me {
   width: 58vw;
-
+  /* flex-direction: column; */
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
