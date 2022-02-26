@@ -147,7 +147,7 @@ body {
 .proj {
   box-shadow: 1px 1px 5px grey;
   margin-left: 5%;
-  /* background-color: red;    */
+
   width: 25%;
 }
 .project1 {
@@ -155,6 +155,9 @@ body {
   flex-direction: column;
 
   align-items: center;
+}
+.project1 .card-body {
+  padding-bottom: 3vw;
 }
 .projects .title {
   font-size: 2vw;
@@ -167,6 +170,17 @@ body {
   object-fit: fit;
   padding-top: 2vw;
 }
+#btn-view {
+  width: 8vw;
+  height: 2vw;
+  text-align: center;
+  background-color: var(--secondary);
+  font-weight: 900;
+}
+.project1 .card-title {
+  color: var(--secondary);
+  font-weight: bold;
+}
 footer {
   background-color: var(--secondary);
   height: 30vh;
@@ -175,8 +189,7 @@ footer {
   justify-content: space-around;
   padding-left: 6vw;
 }
-footer .col-lg-4 {
-}
+
 footer .topic {
   color: white;
   font-weight: 900;
@@ -223,7 +236,6 @@ footer .contact button {
   margin: auto;
 }
 .edus {
-  /* border: 1px solid var(--primary); */
   background-color: #f9f9ff;
   margin-top: 2vw;
   box-shadow: 2px 2px 5px grey;
@@ -231,7 +243,6 @@ footer .contact button {
 }
 .about-me {
   width: 58vw;
-  /* flex-direction: column; */
   display: flex;
   justify-content: space-around;
   align-items: center;
