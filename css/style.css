@@ -16,12 +16,12 @@ body {
   margin-left: 2vw;
 }
 .nav-tabs {
-  margin-left: 25vw;
+  margin-left: 29vw;
 }
 .nav-link {
   color: white;
   font-size: 1.4vw;
-  margin-left: 4vw;
+  margin-left: 3vw;
   font-weight: 700;
 }
 .nav-link a:hover {
@@ -196,11 +196,27 @@ footer .contact button {
 
 /* about page */
 .edu {
-  width: 60vw;
+  width: 60vw !important;
   margin: auto;
 }
 .edus {
-  border: 1px solid var(--primary);
+  /* border: 1px solid var(--primary); */
   background-color: #f9f9ff;
   margin-top: 2vw;
+  box-shadow: 2px 2px 5px grey;
+  padding: 1.2vw 1.1vw 1.2vw;
+}
+.about-me {
+  width: 58vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-me h3 {
+  font-size: 2vw;
+}
+.certifications {
+  margin-bottom: 2vw;
 }
