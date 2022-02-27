@@ -87,8 +87,7 @@ body {
 #skill-text .content {
   font-size: 1.6vw;
 }
-.skillset {
-}
+
 .status {
   padding-top: 2vw;
 }
@@ -243,12 +242,38 @@ footer .contact button {
 }
 .about-me {
   width: 58vw;
-  display: column;
+  display: flex;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
 }
 .about-me h3 {
+  font-size: 2vw;
+  color: var(--secondary);
+  text-align: center;
+  flex-direction: column;
+}
+.about-me img {
+  width: 22vw;
+}
+.languages {
+  width: 58vw;
+}
+.languages ul {
+  display: flex;
+  list-style: none;
+
+  justify-content: space-around;
+}
+.languages ul li a i {
+  /* width: 2em; */
+  transform: scale(3.5, 2.5);
+  color: var(--primary);
+}
+.languages .langs {
+  padding: 3vw 0;
+}
+.languages p {
   font-size: 2vw;
   color: var(--secondary);
 }
