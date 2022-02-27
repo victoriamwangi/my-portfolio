@@ -24,8 +24,9 @@ body {
   margin-left: 3vw;
   font-weight: 700;
 }
-.nav-link a:hover {
-  background-color: red;
+.nav-item a:hover {
+  background: none !important;
+  text-decoration: underline 3px var(--secondary) !important;
 }
 .wrapper-section {
   background-color: #ffffff;
@@ -112,15 +113,35 @@ body {
   align-items: center;
 }
 .services .title {
+  margin-top: 2vw;
   font-size: 2vw;
   font-weight: 900;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.services .title::after {
+  content: "";
+  display: block;
+  width: 3%;
+  background-color: var(--primary);
+  padding: 1px;
+}
+.services .title::before {
+  content: "";
+  display: block;
+  width: 3%;
+  background-color: var(--primary);
+  padding: 1px;
 }
 .r-services .card {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 5vw;
+  padding: 3vw 3vw 5vw;
 }
 
 .r-services .card-body {
@@ -141,14 +162,18 @@ body {
   text-align: center;
 }
 .projects {
-  padding-left: 3vw;
+  padding: 4vw 3vw;
   margin-bottom: 3vw;
+  background-color: #f9f9ff;
 }
 .proj {
   box-shadow: 1px 1px 5px grey;
   margin-left: 5%;
-
+  border-radius: 20px;
   width: 25%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .project1 {
   display: flex;
@@ -162,7 +187,26 @@ body {
 .projects .title {
   font-size: 2vw;
   font-weight: 900;
-  text-align: center;
+  padding-bottom: 2.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.projects .title::after {
+  content: "";
+  display: block;
+  width: 3%;
+  background-color: var(--primary);
+  padding: 1px;
+}
+.projects .title::before {
+  content: "";
+  display: block;
+  width: 3%;
+  background-color: var(--primary);
+  padding: 1px;
 }
 .projects .card-img-top {
   width: 20vw;
@@ -246,6 +290,7 @@ footer .contact button {
   margin-top: 2vw;
   box-shadow: 2px 2px 5px grey;
   padding: 1.2vw 1.1vw 1.2vw;
+  border-radius: 5px;
 }
 .about-me {
   width: 58vw;
@@ -261,8 +306,11 @@ footer .contact button {
 .about-me span {
   color: var(--primary);
   font-size: 1.3vw;
-  text-decoration: underline 2px var(--secondary);
 }
+.about-me .hobbies span {
+  font-size: 1.5vw;
+}
+
 .about-me img {
   width: 22vw;
 }
