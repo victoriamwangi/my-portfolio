@@ -243,13 +243,30 @@ footer .contact button {
 }
 .about-me {
   width: 58vw;
-  display: flex;
+  display: column;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
 .about-me h3 {
   font-size: 2vw;
+  color: var(--secondary);
 }
 .certifications {
   margin-bottom: 2vw;
+}
+.education h2 {
+  color: var(--secondary);
+}
+.project-links {
+  width: 58vw;
+  display: flex;
+  padding: 3vw;
+  align-items: center;
+  justify-content: space-around;
+}
+.project-links .card-img-top {
+  width: 20vw;
+  height: 20vw;
+  color: var(--secondary);
 }
